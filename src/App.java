@@ -13,5 +13,14 @@ public class App {
         tal1/=1000;
         tal1*=1000;
         System.out.println("Talet avrundat blir "+tal1);
+
+        System.out.println("Del b");
+        System.out.println("Ange täljaren: ");
+        int tä = t.nextInt();
+        System.out.println("Ange nämnaren: ");
+        int nä = t.nextInt();
+        int di = tä/nä;
+        tä%=nä;
+        System.out.println("Bråket i blandat form är "+di+" "+tä+"/"+nä);
     }
 }
